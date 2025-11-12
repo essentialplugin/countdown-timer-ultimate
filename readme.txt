@@ -2,8 +2,8 @@
 Contributors: essentialplugin
 Tags: countdown timer, event countdown timer, animated countdown timer, countdown clock, date countdown form
 Requires at least: 5.2
-Tested up to: 6.8.1
-Stable tag: 2.6.6
+Tested up to: 6.8.3
+Stable tag: 2.6.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,6 +128,12 @@ And your time starts now… **Download Now**.
 4. Also work with Gutenberg shortcode block.
 
 == Changelog ==
+
+= 2.6.7 (12, Nov 2025) =
+* [*] Check compatibility with WordPress version 6.8.3
+
+= 2.6.7 (08, Aug 2025) =
+* [*] Check compatibility with WordPress version 6.8.2
 
 = 2.6.6 (16, May 2025) =
 * [*] Updated some URL's

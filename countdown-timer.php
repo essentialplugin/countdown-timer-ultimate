@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Countdown Timer Ultimate
- * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/countdown-timer-ultimate/
+ * Plugin URI: https://essentialplugin.com/wordpress-plugin/countdown-timer-ultimate/
  * Description: Easy to add and display responsive Countdown timer on your website. Also work with Gutenberg shortcode block.
  * Author: Essential Plugin
  * Text Domain: countdown-timer-ultimate
  * Domain Path: /languages/
- * Version: 2.6.6
- * Author URI: https://www.essentialplugin.com
+ * Version: 2.6.8
+ * Author URI: https://essentialplugin.com
  *
  * @package Countdown Timer Ultimate
  * @author Essential Plugin
@@ -25,10 +25,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPCDT_VERSION' ) ) {
-	define( 'WPCDT_VERSION', '2.6.6' ); // Version of plugin
+	define( 'WPCDT_VERSION', '2.6.8' ); // Version of plugin
 }
 if( ! defined( 'WPCDT_NAME' ) ) {
-	define( 'WPCDT_NAME', 'Countdown Timer Ultimate' ); // Version of plugin
+	define( 'WPCDT_NAME', 'Countdown Timer Ultimate' ); // Name of plugin
+}
+if ( ! defined( 'WPCDT_SLUG' ) ) {
+	define( 'WPCDT_SLUG', 'countdown-timer-ultimate' ); // Slug of plugin
 }
 if( ! defined( 'WPCDT_DIR' ) ) {
 	define( 'WPCDT_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -46,19 +49,19 @@ if( ! defined( 'WPCDT_META_PREFIX' ) ) {
 	define( 'WPCDT_META_PREFIX', '_wpcdt_' ); // Plugin metabox prefix
 }
 if( ! defined( 'WPCDT_CHECKOUT_PLUGIN_LINK' ) ) {
-	define('WPCDT_CHECKOUT_PLUGIN_LINK','https://www.essentialplugin.com/backend/checkout/?edd_action=add_to_cart&download_id=106568&edd_options[price_id]=2&wpos_cart_flush=1&utm_source=WP&utm_medium=Countdown&utm_campaign=Upgrade_To_Pro_Trail'); // Plugin Check link
+	define('WPCDT_CHECKOUT_PLUGIN_LINK','https://essentialplugin.com/backend/checkout/?edd_action=add_to_cart&download_id=106568&edd_options[price_id]=2&wpos_cart_flush=1&utm_source=WP&utm_medium=Countdown&utm_campaign=Upgrade_To_Pro_Trail'); // Plugin Check link
 }
 if( ! defined( 'WPCDT_SITE_LINK' ) ) {
-	define('WPCDT_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
+	define('WPCDT_SITE_LINK','https://essentialplugin.com'); // Plugin link
 }
 if( ! defined( 'WPCDT_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WPCDT_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Countdown&utm_campaign=Upgrade-PRO'); // Plugin Check link
+	define('WPCDT_PLUGIN_LINK_UPGRADE','https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Countdown&utm_campaign=Upgrade-PRO'); // Plugin Check link
 }
 if( ! defined( 'WPCDT_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPCDT_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Countdown&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPCDT_PLUGIN_BUNDLE_LINK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Countdown&utm_campaign=Welcome-Screen'); // Plugin link
 }
 if( ! defined( 'WPCDT_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPCDT_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Countdown&utm_campaign=Features-PRO'); // Plugin link
+	define('WPCDT_PLUGIN_LINK_UNLOCK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Countdown&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**
