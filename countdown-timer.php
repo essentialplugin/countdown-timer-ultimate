@@ -6,7 +6,7 @@
  * Author: Essential Plugin
  * Text Domain: countdown-timer-ultimate
  * Domain Path: /languages/
- * Version: 2.6.8
+ * Version: 2.6.9
  * Author URI: https://essentialplugin.com
  *
  * @package Countdown Timer Ultimate
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPCDT_VERSION' ) ) {
-	define( 'WPCDT_VERSION', '2.6.8' ); // Version of plugin
+	define( 'WPCDT_VERSION', '2.6.9' ); // Version of plugin
 }
 if( ! defined( 'WPCDT_NAME' ) ) {
 	define( 'WPCDT_NAME', 'Countdown Timer Ultimate' ); // Name of plugin
