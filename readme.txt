@@ -2,7 +2,7 @@
 Contributors: essentialplugin
 Tags: countdown timer, event countdown timer, animated countdown timer, countdown clock, date countdown form
 Requires at least: 5.2
-Tested up to: 6.8.3
+Tested up to: 6.9.1
 Stable tag: 2.6.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
